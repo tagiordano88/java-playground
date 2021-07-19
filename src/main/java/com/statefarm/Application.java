@@ -3,6 +3,10 @@ package com.statefarm;
 public class Application {
 
     public static void main(String[] args) {
-        System.out.println("hello world");
+       for (int i = 2; i <= 6; i++) {
+           if (i % 2 == 0) {
+               System.out.println(i);
+           }
+       }
     }
 }
